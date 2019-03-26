@@ -1,0 +1,105 @@
+  # FACEBOOK BOT FOR FIREFOX
+  
+  # CREATOR : DR4KK0NNYS
+  
+  # DESIGNED BY A 1366X768 RES
+  
+  
+  
+  
+  
+  
+  1 from selenium import webdriver
+  2 import pyautogui
+  3 import time
+  4 
+  5 browser = webdriver.Firefox()
+  6 browser.get("http://www.facebook.com")
+  7 pyautogui.click(875, 174)
+  8 pyautogui.typewrite("YOUR EMAIL")
+  9 pyautogui.click(1032, 172)
+ 10 pyautogui.typewrite("YOUR PASSWORD")
+ 11 pyautogui.typewrite(["enter"])
+ 12 time.sleep(6)
+ 13 pyautogui.click(370, 233)
+ 14 
+ 15 ## Already logged
+ 16 
+ 17 browser.get("https://www.facebook.com/THE GROUP THAT YOU WANT TO PUBLISH")
+ 18 time.sleep(2)
+ 19 pyautogui.click(500, 629)
+ 20 pyautogui.typewrite("THE TITLE OF THE ITEM")
+ 21 time.sleep(2)
+ 22 for x in range(0, 2):
+ 23     pyautogui.click(552, 627)
+ 24     time.sleep(1)
+ 25 pyautogui.click(405, 665)
+ 26 pyautogui.typewrite("THE PRICE OF THE ITEM")
+ 27 time.sleep(1)
+ 28 pyautogui.click(86, 425)
+ 29 time.sleep(1)
+ 30 pyautogui.click(530, 460)
+ 31 time.sleep(1)
+ 32 pyautogui.click(432, 592)
+ 33 time.sleep(1)
+ 34 pyautogui.click(164, 274)
+ 35 time.sleep(1)
+ 36 pyautogui.click(561, 142)
+ 37 time.sleep(1)
+ 
+ # CHOOSING THE IMAGE
+ 
+ 38 pyautogui.keyDown('ctrl')
+ 39 pyautogui.press('a')
+ 40 pyautogui.keyUp('ctrl')
+ 41 pyautogui.typewrite(["enter"])
+ 42 time.sleep(2)
+ 43 pyautogui.click(546, 456)
+ 44 time.sleep(1)
+ 45 pyautogui.typewrite(''' THE DESCRIPTION OF THE ITEM
+ 73 ''')
+ 74 time.sleep(22)
+ 75 pyautogui.click(99, 302)
+ 76 time.sleep(1)
+ 77 pyautogui.click(642, 371)
+ 78 time.sleep(1)
+ 79 pyautogui.click(809, 684)
+ 80 
+ 81 for y in range(0, 15):
+ 82     pyautogui.press("up")
+ 83 
+ 84 time.sleep(2)
+ 85 
+ 86 for w in range(0, 6):
+ 87     pyautogui.press("down")
+ 88 
+ 89 time.sleep(1)
+ 90 
+ 91 pyautogui.click(829, 376)
+ 92 
+ 93 pyautogui.click(829, 433)
+ 94 pyautogui.click(829, 489)
+ 95 pyautogui.click(829, 546)
+ 96 
+ 97 time.sleep(1)
+ 98 for z in range(0, 7):
+ 99     pyautogui.press("down")
+100 
+101 time.sleep(1)
+102 pyautogui.click(829, 305)
+103 pyautogui.click(829, 360)
+104 pyautogui.click(829, 418)
+105 pyautogui.click(829, 474)
+106 pyautogui.click(829, 529)
+107 
+108 for a in range(0, 8):
+109     pyautogui.press("down")
+110 
+111 time.sleep(1)
+112 #pyautogui.click(829, 429)
+113 pyautogui.click(829, 486)
+114 pyautogui.click(829, 540)
+115 
+116 time.sleep(1)
+117 
+118 pyautogui.click(829, 589)
